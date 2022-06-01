@@ -27,6 +27,9 @@ function index(data){
                     <a href="/">
                         <button className='btn-primary'>Home</button>
                     </a>
+                    <a href="/places/new">
+                        <button className='btn-primary'>Add New</button>
+                    </a>
                 </div>
             </main>
         </Def>

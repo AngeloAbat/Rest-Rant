@@ -7,7 +7,7 @@ function home (){
             <main>
                 <h1>REST-rant</h1>
                 <div>
-                    <img src="/images/Rest-rant-Img.avif" alt="cloudsodem"></img>
+                    <img src="\images\ImgRestRant.avif" alt="cloudsodem"></img>
                     <div>
                         Photo by <a href="https://unsplash.com/@jae462">Jae Bano</a> on <a href="https://unsplash.com/photos/Xbf_4e7YDII">Unsplash</a>
                     </div>
