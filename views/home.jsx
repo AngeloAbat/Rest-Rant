@@ -13,9 +13,6 @@ function home (){
                     </div>
 
                 </div>
-                <a href='/places'>
-                    <button className='btn-primary'>Places Page</button>
-                </a>
                 <a href="/home">
                     <button className='btn-primary'>404 Page</button>
                 </a>

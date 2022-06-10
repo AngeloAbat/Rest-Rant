@@ -13,7 +13,7 @@ function new_form(){
                     </div>
                     <div className='form-group'>
                         <label htmlFor='pic'>Place Picture</label>
-                        <input className='form-control' type="url" id="pic" name="pic"></input>
+                        <input className='form-control'  id="pic" name="pic"></input>
                     </div>
                     <div className='form-group'>
                         <label htmlFor='city'>City</label>
@@ -27,11 +27,8 @@ function new_form(){
                         <label htmlFor='Cuisines'>Cuisines</label>
                         <input className='form-control' id="cuisines" name="cuisines" required></input>
                     </div>
-                    <input type="submit" value="Add Place" className="btn-primary btn"></input>
+                    <input type="submit" value="Submit Place" className="btn-primary btn"></input>
                 </form>
-                <a href="/places">
-                    <button className='btn-primary'>Return</button>
-                </a>
             </main>
         </Def>
     )
