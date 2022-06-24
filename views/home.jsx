@@ -13,6 +13,8 @@ function home (){
                     </div>
 
                 </div>
+
+                <div>Chicken link</div>
                 <a href="/home">
                     <button className='btn-primary'>404 Page</button>
                 </a>

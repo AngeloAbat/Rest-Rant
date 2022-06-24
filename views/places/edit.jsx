@@ -2,7 +2,7 @@ const React = require('react')
 const Def = require('../default.jsx')
 
 function edit_form (data) {
-    console.log(`This is data id = ${data.id}`)
+    console.log(`This is data id = ${data.id }`)
     return (
         <Def>
           <main>
