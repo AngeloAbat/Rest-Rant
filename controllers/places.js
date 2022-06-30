@@ -63,7 +63,7 @@ router.get('/:id/edit', (req, res) => {
 router.post('/:id/comments', (req, res) => {
   console.log(req.body)
   console.log("This is the current rant = " + req.body.rant)
-  if(req.body.rant == "on"){
+  if(req.body.rant == 'on'){
     req.body.rant === true;
   } else{
     req.body.rant === false;
@@ -74,7 +74,6 @@ router.post('/:id/comments', (req, res) => {
     db.Comment.create(req.body)
     .then((comment) => {
       place.comments.push(comment.id)
-      console.log(comment)
       place.save()
       .then(() => {
         res.redirect(`/places/${req.params.id}`)
