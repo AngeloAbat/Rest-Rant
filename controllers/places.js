@@ -63,10 +63,10 @@ router.get('/:id/edit', (req, res) => {
 router.post('/:id/comments', (req, res) => {
   console.log(req.body)
   console.log("This is the current rant = " + req.body.rant)
-  if(req.body.rant == 'on'){
-    req.body.rant === true;
+  if(req.body.rant == "on"){
+    req.body.rant = true
   } else{
-    req.body.rant === false;
+    req.body.rant = false
   }
   console.log("Updated rant: " + req.body.rant)
   db.Place.findById(req.params.id)
@@ -82,7 +82,7 @@ router.post('/:id/comments', (req, res) => {
     .catch(err =>{
       console.log(err)
       res.send(`404`)
-    })
+      })
     })
     .catch(err => {
       res.render(`404`)
