@@ -1,6 +1,9 @@
 const router = require('express').Router()
 const db = require('../models')
 
+//Heroku Deployment
+
+
 router.get('/', (req, res) => {
   db.Place.find()
   .then((places) => {
